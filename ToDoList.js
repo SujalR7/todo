@@ -15,7 +15,6 @@ const showTime=()=>{
     p.innerHTML=date.toLocaleTimeString();
 }
 let IntervalId=setInterval(showTime,1000);
-setTimeout(()=>{clearInterval(IntervalId)},5000);
 let intervalid,min,second,lapid=1;
 const start_timer=()=>{
     if(click==1)
